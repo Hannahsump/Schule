@@ -14,11 +14,12 @@ def primzahlen(y):
 #print(primzahlen(1000))
 
 def primfaktorzerlegung(x):
-    i = 0
-    LIMIT = 2000
-
-  #  prim = primzahlen(LIMIT)
     from Primes_pregenerated import prim
+    i = 0
+    LIMIT = len(prim)
+
+    #prim = primzahlen(LIMIT)
+    
     
     ausgabe = []
 
