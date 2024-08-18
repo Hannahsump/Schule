@@ -17,7 +17,8 @@ def primfaktorzerlegung(x):
     i = 0
     LIMIT = 2000
 
-    prim = primzahlen(LIMIT)
+  #  prim = primzahlen(LIMIT)
+    prim = json.load(Primes-pregenerated.json)
     ausgabe = []
 
     while x != 1:
