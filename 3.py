@@ -14,10 +14,14 @@ def primzahlen(y):
 #print(primzahlen(1000))
 
 def primfaktorzerlegung(x):
+    
+    
     from Primes_pregenerated import prim
     i = 0
     LIMIT = len(prim)
 
+    #Code to generate new primes localy 
+    #LIMIT = 200
     #prim = primzahlen(LIMIT)
     
     
@@ -52,4 +56,5 @@ def Output_function(number):
 
 
 User_Input = 600851475143
+User_Input = 5931947926486512
 print (Output_function(User_Input))
